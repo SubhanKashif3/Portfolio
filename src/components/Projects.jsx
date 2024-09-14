@@ -31,12 +31,12 @@ const ProjectCard = ({ title, description, technologies, imageUrl, liveUrl, gith
 const Projects = () => {
     const projects = [
         {
-            title: "E-commerce Platform",
-            description: "A full-stack e-commerce solution with user authentication, product management, and payment integration.",
-            technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+            title: "YesMart-v2",
+            description: "A full-stack Mega e-commerce solution for YesMart local mart in T.t singh , Pakistan  with client , server , localPurchaseTerminal and localAdmin any non-admin user have only access to client; ",
+            technologies: ["React", "Node.js", "Express", "MongoDB", "Zustand","React Router Dom","MERN","Shadcn","React Native","Vite"],
             imageUrl: "https://via.placeholder.com/400x200",
-            liveUrl: "#",
-            githubUrl: "#"
+            liveUrl: "https://yes-mart-v2-yfgv.vercel.app/",
+            githubUrl: "https://github.com/SubhanKashif3/YesMart-v2"
         },
         {
             title: "Task Management App",
@@ -47,12 +47,12 @@ const Projects = () => {
             githubUrl: "#"
         },
         {
-            title: "Weather Dashboard",
+            title: "Weather Appp",
             description: "A weather application that provides real-time weather data and forecasts for multiple locations.",
-            technologies: ["JavaScript", "OpenWeather API", "Chart.js"],
+            technologies: ["JavaScript","React","Vite"],
             imageUrl: "https://via.placeholder.com/400x200",
-            liveUrl: "#",
-            githubUrl: "#"
+            liveUrl: "https://weatherbyskdev2.vercel.app",
+            githubUrl: "https://github.com/SubhanKashif3/WeatherAppAdvanced.git"
         },
         // Add more projects as needed
     ];
