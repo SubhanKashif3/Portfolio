@@ -39,15 +39,7 @@ const Projects = () => {
             githubUrl: "https://github.com/SubhanKashif3/YesMart-v2"
         },
         {
-            title: "Task Management App",
-            description: "A collaborative task management tool with real-time updates and team features.",
-            technologies: ["React", "Firebase", "Material-UI"],
-            imageUrl: "https://via.placeholder.com/400x200",
-            liveUrl: "#",
-            githubUrl: "#"
-        },
-        {
-            title: "Weather Appp",
+            title: "Weather App",
             description: "A weather application that provides real-time weather data and forecasts for multiple locations.",
             technologies: ["JavaScript","React","Vite"],
             imageUrl: "https://via.placeholder.com/400x200",
