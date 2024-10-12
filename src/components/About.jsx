@@ -11,7 +11,7 @@ const About = () => {
                         <div className="w-64 h-64 rounded-full mx-auto overflow-hidden border-4 border-blue-500 shadow-glow">
                             {/* Replace with your actual image */}
                             <img 
-                                src="https://ibb.co/wh151Dp" 
+                                src="https://i.ibb.co/r2JDJn5/176218081.jpg" 
                                 alt="Subhan Kashif" 
                                 className="w-full h-full object-cover"
                             />
