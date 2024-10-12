@@ -31,12 +31,12 @@ const ProjectCard = ({ title, description, technologies, imageUrl, liveUrl, gith
 const Projects = () => {
     const projects = [
         {
-            title: "YesMart-v2",
+            title: "YesMart-v3",
             description: "A full-stack Mega e-commerce solution for YesMart local mart in T.t singh , Pakistan  with client , server , localPurchaseTerminal and localAdmin any non-admin user have only access to client; ",
             technologies: ["React", "Node.js", "Express", "MongoDB", "Zustand","React Router Dom","MERN","Shadcn","React Native","Vite"],
             imageUrl: "https://via.placeholder.com/400x200",
-            liveUrl: "https://yes-mart-v2-yfgv.vercel.app/",
-            githubUrl: "https://github.com/SubhanKashif3/YesMart-v2"
+            liveUrl: "#",
+            githubUrl: "https://github.com/SubhanKashif3/YesMart-v3"
         },
         {
             title: "Weather App",
@@ -57,6 +57,7 @@ const Projects = () => {
                     {projects.map((project, index) => (
                         <ProjectCard key={index} {...project} />
                     ))}
+                    <p>i made many projects but only two are listed here</p>
                 </div>
             </div>
         </div>
